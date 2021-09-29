@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# this is a until loop that displays Holberton School 10 times
+
+i=Holberton School
+
+do until [ $i -gt 10 ]
+	
+	echo $i
+	((i++))
+done
