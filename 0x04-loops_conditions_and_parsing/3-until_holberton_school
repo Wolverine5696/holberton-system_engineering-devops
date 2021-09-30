@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # this is a until loop that displays Holberton School 10 times
 i=0
-until [ $i == 10 ];
+
+until [ $i -eq 10 ]
 	
 	echo $"Holberton School"
-	(( i=1+1 ));
+	((i++))
 done
