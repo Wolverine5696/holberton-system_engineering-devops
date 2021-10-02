@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #this loop displays bad luck from china use 4th bad luck from japan use 8th and bad luck from italy at 17th
-
 i=1
-while  (( i <= 20 ));do
+while (( i <=20));do
 	echo $i
 	case "$i" in
 	4) echo bad luck from China;;
@@ -10,4 +9,4 @@ while  (( i <= 20 ));do
 	17) echo bad luck from Italy;;
 	easc
 	(( i++ ))
-done
+done	
