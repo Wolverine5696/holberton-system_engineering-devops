@@ -8,6 +8,6 @@ while [$m -lt 11 ]; do
 	elif ((m == 8));then
 	echo good luck; else
 	echo Holberton School
-	f1
+	fi
 	(( m++ ))
 done
