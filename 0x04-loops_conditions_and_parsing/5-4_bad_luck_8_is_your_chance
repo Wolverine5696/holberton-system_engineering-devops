@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 #this is a while loop that displays bad luck for the 4th iteration and good luck for the 8th and Holberton School for all others
 
-m=1
-while [$m -lt 11 ]; do
-	if ((m == 4));then
+i=1
+while [$i -lt 11 ]; do
+	if ((i == 4));then
 	echo bad luck
-	elif ((m == 8));then
+	elif ((i == 8));then
 	echo good luck; else
 	echo Holberton School
 	fi
-	(( m++ ))
+	(( i++ ))
 done
