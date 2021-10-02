@@ -5,7 +5,7 @@ m=1
 while [$m -lt 11 ]; do
 	if ((m == 4));then
 	echo bad luck
-	if ((m == 8));then
+	elif ((m == 8));then
 	echo good luck; else
 	echo Holberton School
 	f1
