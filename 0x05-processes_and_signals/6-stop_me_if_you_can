@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # stops 4-to_infinity_and_beyond process
 
-pkill -15 -f 4-to_infinity_and_beyond
+pkill -15 -f 4-To_infinity_and_beyond
 
